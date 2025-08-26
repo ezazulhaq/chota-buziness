@@ -1,3 +1,651 @@
-<h1 class="text-3xl font-bold underline">
-    Chota Buziness!
-</h1>
+<!-- Header -->
+<header class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div
+                    class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg gear-rotate">⚙</span>
+                </div>
+                <div>
+                    <h1
+                        class="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Chota Buziness</h1>
+                    <p class="text-xs text-gray-600">Big Solutions</p>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#services" class="text-gray-700 hover:text-primary transition">Services</a>
+                <a href="#about" class="text-gray-700 hover:text-primary transition">About</a>
+                <a href="#experience" class="text-gray-700 hover:text-primary transition">Experience</a>
+                <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+            </div>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-20 left-10 floating">
+            <div class="w-16 h-16 border-2 border-white rounded-full"></div>
+        </div>
+        <div class="absolute top-40 right-20 floating" style="animation-delay: -2s;">
+            <div class="w-8 h-8 bg-white rounded-lg rotate-45"></div>
+        </div>
+        <div class="absolute bottom-40 left-1/4 floating" style="animation-delay: -4s;">
+            <div class="w-12 h-12 border-2 border-white rounded-lg"></div>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-6 text-center text-white relative z-10">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                Enterprise Solutions for
+                <span class="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">Every
+                    Business Size</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
+                Transform your small business with powerful Java full-stack development, cloud solutions, and
+                enterprise-grade technology that scales with your growth.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <button
+                    class="bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition transform hover:scale-105">
+                    Start Your Project
+                </button>
+                <button
+                    class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition">
+                    View Portfolio
+                </button>
+            </div>
+            <div class="flex justify-center items-center space-x-8 text-sm">
+                <div class="text-center">
+                    <div class="text-2xl font-bold">10+</div>
+                    <div class="text-gray-300">Years Experience</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold">50+</div>
+                    <div class="text-gray-300">Projects Delivered</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold">3</div>
+                    <div class="text-gray-300">Countries</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2
+                class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Our Services</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Comprehensive technology solutions tailored for growing
+                businesses</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="card-hover bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border border-blue-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-primary to-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Full-Stack Development</h3>
+                <p class="text-gray-600 mb-4">Complete web applications using Java Spring Boot, Angular, and modern
+                    frameworks.</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• Java Spring Boot APIs</li>
+                    <li>• Angular 15+ Frontend</li>
+                    <li>• Database Design & Integration</li>
+                    <li>• Responsive Web Design</li>
+                </ul>
+            </div>
+
+            <div
+                class="card-hover bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl border border-green-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-secondary to-green-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Cloud Solutions</h3>
+                <p class="text-gray-600 mb-4">Migrate and scale your applications on AWS, GCP, and Digital Ocean.</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• AWS Solution Architecture</li>
+                    <li>• Docker Containerization</li>
+                    <li>• Kubernetes Orchestration</li>
+                    <li>• CI/CD Pipeline Setup</li>
+                </ul>
+            </div>
+
+            <div
+                class="card-hover bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl border border-purple-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">API Integration</h3>
+                <p class="text-gray-600 mb-4">Connect your systems with powerful APIs and microservices architecture.
+                </p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• RESTful API Development</li>
+                    <li>• Third-party Integrations</li>
+                    <li>• Microservices Architecture</li>
+                    <li>• API Security & Documentation</li>
+                </ul>
+            </div>
+
+            <div
+                class="card-hover bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl border border-orange-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-accent to-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Banking & FinTech</h3>
+                <p class="text-gray-600 mb-4">Secure financial applications with OWASP compliance and industry
+                    standards.</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• Core Banking Systems</li>
+                    <li>• Payment Gateway Integration</li>
+                    <li>• Security Compliance</li>
+                    <li>• Financial Reporting</li>
+                </ul>
+            </div>
+
+            <div class="card-hover bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl border border-teal-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Healthcare Solutions</h3>
+                <p class="text-gray-600 mb-4">Patient portals and healthcare management systems for better care
+                    delivery.</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• Patient Self-Service Portals</li>
+                    <li>• Healthcare Equipment Integration</li>
+                    <li>• Medical Data Management</li>
+                    <li>• Compliance & Security</li>
+                </ul>
+            </div>
+
+            <div
+                class="card-hover bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl border border-indigo-200">
+                <div
+                    class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100-4m0 4v2m0-6V4">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Automation & DevOps</h3>
+                <p class="text-gray-600 mb-4">Streamline operations with automated workflows and deployment pipelines.
+                </p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• Email Automation Systems</li>
+                    <li>• Jenkins CI/CD Pipelines</li>
+                    <li>• Process Automation</li>
+                    <li>• Performance Monitoring</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2
+                    class="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                    About Chota Buziness</h2>
+                <p class="text-xl text-gray-600 mb-6 leading-relaxed">
+                    Founded by Ezazul Haq Abdul, a Principal Consultant with over 10 years of experience in enterprise
+                    software development. We believe every business, no matter how "chota" (small), deserves access to
+                    enterprise-grade technology solutions.
+                </p>
+                <p class="text-gray-600 mb-8">
+                    Our mission is to democratize technology by making complex enterprise solutions accessible and
+                    affordable for small and medium businesses. We bring the same level of expertise used by Fortune 500
+                    companies to help your business grow and compete in the digital age.
+                </p>
+
+                <div class="grid grid-cols-2 gap-6 mb-8">
+                    <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+                        <div class="text-3xl font-bold text-primary mb-2">10+</div>
+                        <div class="text-sm text-gray-600">Years Experience</div>
+                    </div>
+                    <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+                        <div class="text-3xl font-bold text-secondary mb-2">50+</div>
+                        <div class="text-sm text-gray-600">Projects Completed</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">Java</span>
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">Spring Boot</span>
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">Angular</span>
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">AWS</span>
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">Docker</span>
+                    <span class="tech-badge text-white px-4 py-2 rounded-full text-sm font-medium">Kubernetes</span>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="bg-gradient-to-br from-primary to-secondary rounded-3xl p-1">
+                    <div class="bg-white rounded-3xl p-8 h-full">
+                        <h3 class="text-2xl font-bold mb-6 text-center">Why Choose Us?</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div
+                                    class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Enterprise Experience</h4>
+                                    <p class="text-sm text-gray-600">Worked with TCS and Genpact on Fortune 500 projects
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div
+                                    class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Multi-Industry Expertise</h4>
+                                    <p class="text-sm text-gray-600">Banking, Healthcare, and Financial Solutions
+                                        specialist</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div
+                                    class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Global Experience</h4>
+                                    <p class="text-sm text-gray-600">Successfully delivered projects in India and
+                                        Bangladesh</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div
+                                    class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">AWS Certified</h4>
+                                    <p class="text-sm text-gray-600">Solution Architect Associate certification</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2
+                class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Professional Journey</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">A decade of delivering enterprise solutions for leading
+                companies</p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-secondary"></div>
+
+                <!-- Experience items -->
+                <div class="space-y-12">
+                    <div class="relative flex items-start space-x-8">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white font-bold text-lg relative z-10">
+                            2022
+                        </div>
+                        <div
+                            class="flex-1 card-hover bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-800">Principal Consultant</h3>
+                                    <p class="text-primary font-semibold">Genpact India Private Limited</p>
+                                </div>
+                                <span
+                                    class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Current</span>
+                            </div>
+                            <ul class="text-gray-600 space-y-2 text-sm">
+                                <li>• Developed Customer Self Service Portal for GE Healthcare equipment globally</li>
+                                <li>• Implemented WebRTC technology for real-time customer support</li>
+                                <li>• Created automated data extraction systems using MS Graph API</li>
+                                <li>• Built Salesforce API integration for case management</li>
+                            </ul>
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Healthcare</span>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">WebRTC</span>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">MS Graph API</span>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Salesforce</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative flex items-start space-x-8">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-br from-secondary to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg relative z-10">
+                            2014
+                        </div>
+                        <div
+                            class="flex-1 card-hover bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border border-green-200">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-800">Assistant Consultant → Technical Lead
+                                    </h3>
+                                    <p class="text-secondary font-semibold">Tata Consultancy Services Limited</p>
+                                </div>
+                                <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">8
+                                    Years</span>
+                            </div>
+                            <ul class="text-gray-600 space-y-2 text-sm mb-4">
+                                <li>• Containerized monolithic applications using Docker and Kubernetes</li>
+                                <li>• Implemented OWASP security standards and compliance</li>
+                                <li>• Developed APIs for Card Management Systems</li>
+                                <li>• Led technical teams across 3 countries (India, Bangladesh)</li>
+                                <li>• Managed IDFC First Bank, Jamuna Bank, and Mutual Trust Bank projects</li>
+                            </ul>
+                            <div class="bg-green-50 p-4 rounded-lg mb-4">
+                                <h4 class="font-semibold text-green-800 mb-2">Key Projects:</h4>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm">
+                                    <div class="bg-white p-2 rounded border-l-4 border-green-500">
+                                        <div class="font-medium">IDFC First Bank</div>
+                                        <div class="text-gray-600">Core Banking</div>
+                                    </div>
+                                    <div class="bg-white p-2 rounded border-l-4 border-green-500">
+                                        <div class="font-medium">Jamuna Bank</div>
+                                        <div class="text-gray-600">Bangladesh</div>
+                                    </div>
+                                    <div class="bg-white p-2 rounded border-l-4 border-green-500">
+                                        <div class="font-medium">Mutual Trust Bank</div>
+                                        <div class="text-gray-600">Bangladesh</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Banking</span>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Docker</span>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Kubernetes</span>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">OWASP</span>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Team
+                                    Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technologies Section -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2
+                class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Technology Stack</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">Cutting-edge technologies powering modern business
+                solutions</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-red-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M8.851 18.56s-.917.534.653.714c1.902.218 2.874.187 4.969-.211 0 0 .552.346 1.321.646-4.699 2.013-10.633-.118-6.943-1.149M8.276 15.933s-1.028.761.542.924c2.032.209 3.636.227 6.413-.308 0 0 .384.389.987.602-5.679 1.661-12.007.13-7.942-1.218M13.116 11.475c1.158 1.333-.304 2.533-.304 2.533s2.939-1.518 1.589-3.418c-1.261-1.772-2.228-2.652 3.007-5.688 0-.001-8.216 2.051-4.292 6.573M19.33 20.504s.679.559-.747.991c-2.712.822-11.288 1.069-13.669.033-.856-.373.75-.89 1.254-.998.527-.114.828-.093.828-.093-.953-.671-6.156 1.317-2.643 1.887 9.58 1.553 17.462-.7 14.977-1.82M9.292 13.21s-4.362 1.036-1.544 1.412c1.189.159 3.561.123 5.77-.062 1.806-.152 3.618-.477 3.618-.477s-.637.272-1.098.587c-4.429 1.165-12.986.623-10.522-.568 2.082-1.006 3.776-.892 3.776-.892M17.116 17.584c4.503-2.34 2.421-4.589.968-4.285-.355.074-.515.138-.515.138s.132-.207.385-.297c2.875-1.011 5.086 2.981-.928 4.562 0-.001.07-.062.09-.118M14.401 0s2.494 2.494-2.365 6.33c-3.896 3.077-.888 4.832-.001 6.836-2.274-2.053-3.943-3.858-2.824-5.539 1.644-2.469 6.197-3.665 5.19-7.627M9.734 23.924c4.322.277 10.959-.153 11.116-2.198 0 0-.302.775-3.572 1.391-3.688.694-8.239.613-10.937.168 0-.001.553.457 3.393.639" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">Java</h3>
+            </div>
+
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-green-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M21.8537 1.4158c-1.1507 0-2.0829.9321-2.0829 2.0829v15.4151c-2.5442-2.4174-5.7898-4.0968-9.5498-4.0968-7.7348 0-14.0112 6.2765-14.0112 14.0113h3.8829c0-5.6168 4.5116-10.1284 10.1283-10.1284 3.3141 0 6.2765 1.5994 8.1327 4.0607v-19.3448c0-1.1507.9321-2.0829 2.0829-2.0829s2.0829.9321 2.0829 2.0829v21.1022h3.8829v-21.1022c0-3.2498-2.6163-5.866-5.866-5.866z" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">Spring Boot</h3>
+            </div>
+
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-red-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M9.931 12.645h4.138l-2.07-4.908m0-7.737L0 24h4.69l1.638-3.943h11.345L19.31 24H24L12.065 0z" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">Angular</h3>
+            </div>
+
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-orange-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.546 10.93L13.067.452a.86.86 0 0 0-1.214 0L10.433 1.87 13.637 5.075c.35-.12.803-.025 1.074.287.278.323.335.789.135 1.179l3.051 3.05c.394-.2.86-.143 1.18.134a.86.86 0 1 1-1.21 1.21c-.32-.32-.402-.84-.201-1.266L14.514 7.515v7.745c.2.1.376.233.512.403.4.4.4 1.047 0 1.447a1.024 1.024 0 0 1-1.447 0c-.4-.4-.4-1.047 0-1.447.15-.15.322-.25.503-.334V7.539a1.024 1.024 0 0 1-.503-.334c-.323-.323-.4-.84-.2-1.266L10.228 2.787.452 12.562a.86.86 0 0 0 0 1.214L10.93 23.546a.86.86 0 0 0 1.214 0L23.546 12.144a.86.86 0 0 0 0-1.214z" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">Git</h3>
+            </div>
+
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185M9.422 8.82h2.12a.186.186 0 00.185-.186V6.747a.185.185 0 00-.185-.185H9.422a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186M6.05 8.82h2.12a.185.185 0 00.185-.186V6.747a.185.185 0 00-.185-.185H6.05a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">Docker</h3>
+            </div>
+
+            <div class="card-hover bg-white p-6 rounded-xl shadow-sm text-center">
+                <div class="w-12 h-12 mx-auto mb-4 bg-yellow-100 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M10.204 14.35l.007.01-.999 2.413a5.171 5.171 0 0 1-2.075-2.597l2.578-.437.004.005a1.357 1.357 0 0 1 .485.606zm-.833-2.129a5.17 5.17 0 0 1 .331-3.016l1.282 2.46a1.357 1.357 0 0 1-.606.485l-.007.004-1.36.066v.001zm2.129.833l.007-.004a1.357 1.357 0 0 1 .606-.485l.004-.007 1.36-.066-.001-.001a5.17 5.17 0 0 1-.331 3.016l-1.282-2.46-.363.007z" />
+                    </svg>
+                </div>
+                <h3 class="font-semibold text-gray-800">AWS</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 gradient-bg">
+    <div class="container mx-auto px-6 text-center text-white">
+        <h2 class="text-4xl font-bold mb-4">Ready to Transform Your Business?</h2>
+        <p class="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
+            Let's discuss how we can bring enterprise-grade solutions to your growing business
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Email</h3>
+                <p class="text-gray-200">ezazulhaq.it@gmail.com</p>
+            </div>
+
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Phone</h3>
+                <p class="text-gray-200">+91-9930800797</p>
+            </div>
+
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+                <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Location</h3>
+                <p class="text-gray-200">Mumbai, India</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <a href="mailto:ezazulhaq.it@gmail.com"
+                class="bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition transform hover:scale-105">
+                Get Started Today
+            </a>
+            <a href="https://www.linkedin.com/in/ezazul-haq-abdul-932b2976" target="_blank"
+                class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition">
+                View LinkedIn Profile
+            </a>
+        </div>
+
+        <div class="flex justify-center space-x-6">
+            <a href="https://www.linkedin.com/in/ezazul-haq-abdul-932b2976" target="_blank"
+                class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+            </a>
+            <a href="https://github.com/ezazulhaq" target="_blank"
+                class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="col-span-2">
+                <div class="flex items-center space-x-3 mb-4">
+                    <div
+                        class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">⚙</span>
+                    </div>
+                    <div>
+                        <h3
+                            class="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                            Chota Buziness</h3>
+                        <p class="text-sm text-gray-400">Big Solutions</p>
+                    </div>
+                </div>
+                <p class="text-gray-400 mb-4 max-w-md">
+                    Empowering small and medium businesses with enterprise-grade technology solutions. Every business
+                    deserves to think big, no matter how small they start.
+                </p>
+                <p class="text-sm text-gray-500">
+                    © 2024 Chota Buziness. All rights reserved.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#services" class="hover:text-white transition">Full-Stack Development</a></li>
+                    <li><a href="#services" class="hover:text-white transition">Cloud Solutions</a></li>
+                    <li><a href="#services" class="hover:text-white transition">API Integration</a></li>
+                    <li><a href="#services" class="hover:text-white transition">Banking & FinTech</a></li>
+                    <li><a href="#services" class="hover:text-white transition">Healthcare Solutions</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="#experience" class="hover:text-white transition">Experience</a></li>
+                    <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/ezazul-haq-abdul-932b2976"
+                            class="hover:text-white transition">LinkedIn</a></li>
+                    <li><a href="https://github.com/ezazulhaq" class="hover:text-white transition">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>Built with ❤️ using modern web technologies. Ready to transform your business? Let's connect!</p>
+        </div>
+    </div>
+</footer>
